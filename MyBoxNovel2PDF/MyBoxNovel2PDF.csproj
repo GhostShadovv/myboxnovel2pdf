@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Myboxnovel to PDF generator</Title>
+    <Authors>Toghe Razvan</Authors>
+    <Description>Generate PDF from chapters on https://myboxnovel.com/</Description>
+    <RepositoryUrl>https://github.com/GhostShadovv/myboxnovel2pdf</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.53" />
+    <PackageReference Include="itext7" Version="8.0.1" />
+    <PackageReference Include="itext7.bouncy-castle-adapter" Version="8.0.1" />
+  </ItemGroup>
+
+</Project>
